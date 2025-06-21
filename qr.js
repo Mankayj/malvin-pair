@@ -72,9 +72,9 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "malvin~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, MALVIN-XD User!* 👋🏻
+                        let desc = `*Hey there, MANKA-MD User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
+Thanks for using *MANKA-MD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -83,23 +83,23 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029Vb5gd3t4dTnIuKvA3g3X
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+https://github.com/Mankayj/MANKA-MD
 
 ——————
 
-> *© Powered by Malvin King*
+> *© Powered by Abdul_Rahman King*
 Stay cool and hack smart. ✌🏻`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
+title: "MANKA-MD 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
 thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5gd3t4dTnIuKvA3g3X",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -108,9 +108,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hey there, MALVIN-XD User!* 👋🏻
+                            let desc = `*Hey there, MANKA-MD User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
+Thanks for using *MANKA-MD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -119,21 +119,21 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029Vb5gd3t4dTnIuKvA3g3X
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+https://github.com/Mankayj/MANKA-MD
 
-> *© Powered by Malvin King*
+> *© Powered by Abdul_Rahman King*
 Stay cool and hack smart. ✌🏻*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
+title: "MANKA-MD 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
 thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5gd3t4dTnIuKvA3g3X",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -150,7 +150,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    MALVIN_XD_PAIR_CODE();
+                    MANKA_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
